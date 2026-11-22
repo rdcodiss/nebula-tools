@@ -1,25 +1,27 @@
 # Nebula Tools
 
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-9d00ff?style=for-the-badge)](https://docs.python.org/3.11/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge)](LICENSE)
+
 Nebula Tools is a Python 3.11 command-line toolkit by **@rdcodis**. It includes 47 tools for HTTP and DNS diagnostics, local file and inventory review, breach checks, and cryptography.
 
-## Install and run
+## 📦 Instalação
 
-Run these commands from the directory containing `nebula.py`. On Windows, use `py -3.11` in place of `python3.11` if you use the Python launcher.
+Use Python 3.11 and run this command from the project directory.
 
 ~~~sh
-python3.11 -m pip install requests beautifulsoup4 rich dnspython python-whois
-python3.11 nebula.py
+pip install -r requirements.txt
+~~~
+
+The requirements include Nebula0Crip file encryption and decryption with `cryptography` and local image EXIF review with `Pillow`.
+
+## 🚀 Uso
+
+~~~sh
+python nebula.py
 ~~~
 
 Type `I AGREE` when prompted. Enter `?` for the full tool guide, or `0` to exit.
-
-Install the optional packages for the features you want to use.
-
-~~~sh
-python3.11 -m pip install cryptography Pillow
-~~~
-
-`cryptography` enables Nebula0Crip file encryption and decryption. `Pillow` enables local image EXIF review.
 
 ## Highlights
 
@@ -33,6 +35,6 @@ python3.11 -m pip install cryptography Pillow
 | 35–37, 41, 44–45 | Classify IP addresses, inspect public IP and reverse DNS, review saved Nmap XML, send a single ping, and generate documentation addresses. |
 | 43, 46–47 | Review local image EXIF, search a read-only SQLite database, and create or verify salted scrypt password hashes. |
 
-## Usage
+## Authorized use
 
 Use the tools on systems you own or have explicit permission to assess. Some options contact public services, including [Have I Been Pwned](https://haveibeenpwned.com/), [NVD](https://www.nist.gov/itl/nvd), and [ipify](https://www.ipify.org/).
