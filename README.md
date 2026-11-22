@@ -38,3 +38,5 @@ Type `I AGREE` when prompted. Enter `?` for the full tool guide, or `0` to exit.
 ## Authorized use
 
 Use the tools on systems you own or have explicit permission to assess. Some options contact public services, including [Have I Been Pwned](https://haveibeenpwned.com/), [NVD](https://www.nist.gov/itl/nvd), and [ipify](https://www.ipify.org/).
+
+<img width="1397" height="797" alt="image" src="https://github.com/user-attachments/assets/9457b8ad-b4c9-4473-a18d-e38dc20ff9f5" />
